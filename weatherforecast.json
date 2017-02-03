@@ -1,0 +1,25 @@
+{
+   "forecast": [
+      {
+         "Monday": {
+            "description": "sunny",
+            "maxTemp": 57,
+            "minTemp": 55,
+            "windSpeed": 6,
+            "danger": false
+         }
+      },
+      {
+         "Tuesday": {
+            "description": "light rain showers",
+            "maxTemp": 59,
+            "minTemp": 54,
+            "windSpeed": 8,
+            "danger": false
+         }
+      },
+      {
+         "Wednesday": null
+      }
+   ]
+}
