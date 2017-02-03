@@ -1,5 +1,6 @@
 
 Defines the parameters required to view the weather forecast.
+
 | Element | Description | Type | Notes |
 |---|---|---|---|
 | date | Date of the weather forecast | string | Format is YYYY-MM-DD |
