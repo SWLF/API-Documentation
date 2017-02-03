@@ -1,0 +1,10 @@
+
+Defines the parameters required to view the weather forecast.
+| Element | Description | Type | Notes |
+|---|---|---|---|
+| date | Date of the weather forecast | string | Format is YYYY-MM-DD |
+| description | Text description of the weather | string | Valid values: sunny, overcast, partly cloudy, raining, snowing |
+| maxTemp | High temperature | number | In degrees Celsius |
+| minTemp | Low temperature | number | In degrees Celsius |
+| windSpeed | Wind speed | number | In kilometers per hour|
+| danger | true if the weather conditions are dangerous; otherwise, false | Boolean | |
