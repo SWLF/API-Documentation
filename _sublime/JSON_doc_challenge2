@@ -1,0 +1,38 @@
+{
+   "longitude": 47.6,
+   "latitude": 122.33,
+   "forecasts": [
+      {
+         "date": "2015-09-01",
+         "description": "sunny",
+         "maxTemp": 22,
+         "minTemp": 20,
+         "windSpeed": 12,
+         "danger": false
+      },
+      {
+         "date": "2015-09-02",
+         "description": "overcast",
+         "maxTemp": 21,
+         "minTemp": 17,
+         "windSpeed": 15,
+         "danger": false
+      },
+      {
+         "date": "2015-09-03",
+         "description": "raining",
+         "maxTemp": 20,
+         "minTemp": 18,
+         "windSpeed": 13,
+         "danger": false
+      }
+   ]
+}
+
+
+Create a new table to document this JSON response. Use the indentation method with two &nbsp; to create the indent, and then copy values from the table in Step 1.
+Don't just say "longitude" and "latitude" in the description for longitude and latitude. Your job as an API writer is to figure out why there would be a longitude and latitude in a weather forecast,
+and then to write a description that makes it clear.
+Add a one sentence description before the table. Note that there is nothing about the data structure that says that it holds exactly three days of forecast, because an array can have any
+number of items. This means that the JSON data can hold any number of days' worth of data.
+Make sure your description says that.

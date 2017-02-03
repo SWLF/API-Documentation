@@ -1,0 +1,13 @@
+{
+   "date": "2015-09-01",
+   "description": "sunny",
+   "maxTemp": 22,
+   "minTemp": 20,
+   "windSpeed": 12,
+   "danger": false
+}
+Use Markdown to create a table with four columns: Element, Description, Type, and Notes.
+Also, in the table, be sure to include information from these notes from the developer:
+"description" can have these values: "sunny", "overcast", "partly cloudy", "raining", and"snowing"
+"maxTemp" and "minTemp" are in degrees Celsius
+"windSpeed" is in kilometers per hour
