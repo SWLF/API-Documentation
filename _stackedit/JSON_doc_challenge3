@@ -3,8 +3,8 @@ Represents a meeting request
 | Element | Description | Type | Required | Notes |
 |---|---|---|---|
 |meeting | New meeting request | meeting data object | Required | |
-| &nbsp; &nbsp; time | When the meeting starts | string | Required | Format : YYYY-MM-DD HH:MM |
-| &nbsp; &nbsp; duration | How long the meeting lasts | number | Required | |
+| &nbsp; &nbsp; time | When the meeting starts | string | Required | Format : YYYY-MM-DD HH:MM. Timezone is GMT.|
+| &nbsp; &nbsp; duration | How long the meeting lasts | number | Required | In minutes |
 | &nbsp; &nbsp; description | Description of the meeting | string | Required | |
 | &nbsp; &nbsp; location | Location of the meeting | string | Optional | Default is an empty string |
 | &nbsp; &nbsp; reminder | How many minutes before the meeting a reminder should take place | number | Optional | Default is 10 minutes |
